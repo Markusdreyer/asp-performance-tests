@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js -e ejs,js,css,html,jpg,png,scss,lp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clingo-wasm": "0.0.9",
+    "clingojs": "^1.0.2",
+    "fs": "0.0.1-security",
+    "node-clingo-wasm": "0.0.2",
+    "nodemon": "^2.0.15"
+  }
+}
